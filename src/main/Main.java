@@ -124,10 +124,12 @@ public class Main {
         public static void workWitchManagers(int salesOne, int salesTwo, int salesThree){
         }
         //Ульяна
-        public static void getSquareAndPerimetr() {
-
+        public static void factorial(int i) {
+            int s = 1;
+            for (int a = 1; a <= i; a++) {
+                s *= a;
+            }
         }
-
         //Дима
         public static int getNumberTwoSybmol(int NumberTwoSybmol) {
             return 0;
