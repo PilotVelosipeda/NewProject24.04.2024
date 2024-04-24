@@ -140,6 +140,21 @@ public class Main {
 
         //Михаил
         public static boolean happyNumber(int number) {
+            int number1 = number / 100_000;
+            int number2 = number / 100_00 % 10;
+            int number3 = number / 1000 % 10;
+            int number4 = number / 100 % 10;
+            int number5 = number / 10 % 10;
+            int number6 = number % 10;
+
+
+            int sum1 = number1 + number2 + number3;
+            int sum2 = number4 + number5 + number6;
+
+            if (sum1 == sum2) {
+                return true;
+            }
+            return false;
 
         }
     }
